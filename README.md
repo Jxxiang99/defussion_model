@@ -9,7 +9,8 @@
 
 **参考论文**
 
-DDPM：[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)，原版扩散模型  
-DDIM：[Denoising Diffusion Implicit Models](https://arxiv.org/abs/2010.02502)，加速模型效率  
-条件生成：[Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2102.09672)  
-可控文本生成：[Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/abs/2205.14217)  
+Denoising Diffusion Probabilistic Models:DDPM的提出论文
+Denoising Diffusion Implicit Models：提出了DDIM，该模型是为了加快DDPM的sample速度
+Diffusion Models Beat GANs on Image Synthesis：论文中用到了conditional diffusion model,不过是用classifier guidance
+Diffusion-LM Improves Controllable Text Generation:利用diffusion model进行可控文本生成，跟以往相比控制更加细粒度，不单纯是输出positive和negtive的控制
+
